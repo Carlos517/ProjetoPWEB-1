@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f5f3fc;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  border-bottom: 1px solid #ddd;
+  background-color: #ffffff;
+}
+
+header h1 {
+  font-size: 20px;
+  color: #6a5acd;
+}
+
+header p {
+  font-size: 14px;
+  color: #333;
+}
+
+main {
+  padding: 40px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.add-tarefa {
+  background-color: #f3f1ff;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  
+}
+
+.add-tarefa h2 {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.form {
+  display: flex;
+  gap: 10px;
+}
+
+.form input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.form button {
+  background-color: #6a5acd;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.titulo-tarefas {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.titulo-tarefas h3 {
+  font-size: 15px;
+}
+
+.titulo-tarefas span {
+  font-size: 13px;
+  color: #4caf50;
+}
+
+.minhas-tarefas p {
+  font-size: 13px;
+  margin-bottom: 15px;
+  color: #555;
+}
+
+.tarefa {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+}
+
+.tarefa.pendente {
+  background-color: #e7e2fa;
+}
+
+.tarefa.concluida {
+  background-color: #d5f8df;
+}
