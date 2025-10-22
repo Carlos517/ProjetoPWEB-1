@@ -15,7 +15,7 @@ header {
   align-items: center;
   padding: 20px 40px;
   border-bottom: 1px solid #ddd;
-  background-color: #ffffff;
+  background-color: #f5f3fc;
 }
 
 header h1 {
@@ -55,17 +55,22 @@ main {
 .form input {
   flex: 1;
   padding: 8px;
-  border: 1px solid #ccc;
+  border: 1px solid #7065F0;
   border-radius: 6px;
+  height: 50px;
+  background-color: #E4E1FF;
+  color: #7065F0;
 }
 
 .form button {
-  background-color: #6a5acd;
+  background-color: #7065F0;
   color: white;
   border: none;
   padding: 8px 15px;
   border-radius: 6px;
   cursor: pointer;
+  height: 50px;
+  width: 110px;
 }
 .titulo-tarefas {
   display: flex;
@@ -96,10 +101,12 @@ main {
   border-radius: 8px;
   margin-bottom: 10px;
   border: 1px solid #ddd;
+  height: 67px;
+  color: #7065F0;
 }
 
 .tarefa.pendente {
-  background-color: #e7e2fa;
+  background-color: #E4E1FF;
 }
 
 .tarefa.concluida {
